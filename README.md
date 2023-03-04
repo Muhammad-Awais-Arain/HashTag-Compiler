@@ -6,7 +6,7 @@ Download MinGW for C, C++.
 Download Python for python.
 PHP path from wamp.
 Download NodeJS for NodeJS.
-Replace Python's, Php paths withyour path in "ompiler.php"file in "app" folder.
+Replace Python's, Php paths withyour path in "compiler.php"file in "app" folder.
 
 And for testing database,
 create a database named as registration,
