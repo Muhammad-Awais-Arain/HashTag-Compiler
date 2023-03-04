@@ -1,0 +1,114 @@
+.navbar{
+    background: white;
+    padding: 3rem 2rem;
+    height: 0rem;
+    min-height: 12vh;
+
+}
+.navbar .navbar-brand a{
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+.navbar-brand {
+    font-family: 'Pacifico', cursive; 
+    font-size: 2.5rem;
+    color: #e74c3c;
+}
+.navbar-toggler {
+    background: #e74c3c;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+
+}
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #fff;
+}
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #fff;
+}
+.navbar-toggler span + span {
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+.navbar-toggler span + span + span {
+    width: 10px;
+    margin-left: 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 2rem 1.2rem;
+    font-size: 1.4rem;
+    position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    border-top: 4px solid #e74c3c;
+} 
+.navbar-expand-lg .navbar-nav .nav-link.active {
+       border-top: 4px solid #e74c3c;
+       color: #e74c3c;
+}
+.control-panel {
+    text-align: right;
+    padding: 4px;
+    font-family: sans-serif;
+    color:white;
+}
+
+.languages {
+    background: white;
+    border: 1px solid gray;
+}
+
+#editor { 
+
+    height: 300px;
+ }
+html, body{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+}
+
+a{
+text-decoration: none;
+color: rgba(34, 54, 69, .7);
+font-weight: 500;
+}
+a:hover{
+    color: #000;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.button-container {
+    text-align: right;
+    padding: 2px;
+  
+}
+
+.output {
+      /*  padding: 4px;
+      */  border: 2px solid gray;
+        height: 100px;
+        width: 99%;
+       /* resize: none;
+*/
+}
