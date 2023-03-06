@@ -11,11 +11,11 @@
 
     if($language == "php") {
 
-        $output = shell_exec("C:\wamp64\bin\php\php7.4.26\php.exe $filePath 2>&1");
+        $output = shell_exec("C:\xampp\php\php.exe $filePath 2>&1");
         echo $output;
     }
     if($language == "python") {
-        $output = shell_exec("C:\Users\hp\AppData\Local\Programs\Python\Python310\python.exe $filePath 2>&1");
+        $output = shell_exec("C:\Users\Awais\AppData\Local\Programs\Python\Python311\python.exe $filePath 2>&1");
         echo $output;
     }
     if($language == "node") {

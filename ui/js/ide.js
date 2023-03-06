@@ -35,7 +35,7 @@ function changeLanguage() {
 function executeCode() {
     $.ajax({
 
-        url: "/ide/app/compiler.php",
+        url: "/HashTag-Compiler/app/compiler.php",
 
         method: "POST",
 
@@ -59,7 +59,7 @@ function saveCode() {
     
     $.ajax({
 
-        url: "/ide/ui/codesaved.php",
+        url: "/HashTag-Compiler/ui/codesaved.php",
 
         method: "POST",
 
