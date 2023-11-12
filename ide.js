@@ -4,11 +4,11 @@ let editor;
 window.onload = function() {
     editor = ace.edit("editor");
     editor.setOptions({
-  theme: 'ace/theme/gruvbox',
-  mode: 'ace/mode/text',
-  enableBasicAutocompletion: true,
-  enableLiveAutocompletion: true,
-  useElasticTabstops: true,
+    theme: 'ace/theme/gruvbox',
+    mode: 'ace/mode/text',
+    enableBasicAutocompletion: true,
+    enableLiveAutocompletion: true,
+    useElasticTabstops: true,
 
 })
 /*    editor.setTheme("ace/theme/Monokai");
@@ -35,7 +35,7 @@ function changeLanguage() {
 function executeCode() {
     $.ajax({
 
-        url: "/HashTag-Compiler/app/compiler.php",
+        url: "/HashTag-Compiler/compiler.php",
 
         method: "POST",
 
@@ -59,7 +59,7 @@ function saveCode() {
     
     $.ajax({
 
-        url: "/HashTag-Compiler/ui/codesaved.php",
+        url: "/HashTag-Compiler/codesaved.php",
 
         method: "POST",
 
