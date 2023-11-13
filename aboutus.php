@@ -22,12 +22,9 @@
 <head>
   <title>HashTag Compiler</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="about.css" />
-</style>
 </head>
 <body style="background-color: #343a40;">
 <header class="header">
@@ -73,38 +70,36 @@
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="Awais.jpg" alt="Awais" style="width:100%">
+      <img src="awais.jpg" alt="Awais">
       <div class="container">
         <h2>Muhammad Awais</h2>
         <p class="title">Group Leader</p>
         <p>A passionate Web developer and SQA.</p>
-
-        <p><button class="button" onclick="location.href='muhammadawais49451.wordpress.com'">Contact</button></p>
+        <p><button class="button" onclick="location.href='https://muhammadawais49451.wordpress.com'">Contact</button></p>
       </div>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <img src="Hassan.jpg" alt="Hassan" style="width:100%">
+      <img src="Hassan.jpg" alt="Hassan">
       <div class="container">
         <h2>Muhammad Hassan Saeed</h2>
         <p class="title">Group Member</p>
-        <p>A intelligent UI/UX designer.</p>
-            <p><button class="button" onclick="location.href='https://muhammadhassansaeed49479.wordpress.com/'">Contact</button></p>
+        <p>An intelligent UI/UX designer.</p>
+        <p><button class="button" onclick="location.href='https://muhammadhassansaeed49479.wordpress.com/'">Contact</button></p>
       </div>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <img src="Danish.jpg" alt="Danish" style="width:100%">
+      <img src="Danish.jpg" alt="Danish">
       <div class="container">
         <h2>Danish Aslam</h2>
         <p class="title">Group Member</p>
-        <p>A animated graphics designer.</p>
-
-       <p><button class="button" onclick="location.href='https://danishaslam49635.wordpress.com/'">Contact</button></p>
+        <p>An animated graphics designer.</p>
+        <p><button class="button" onclick="location.href='https://danishaslam49635.wordpress.com/'">Contact</button></p>
       </div>
     </div>
   </div>
